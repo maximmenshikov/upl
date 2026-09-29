@@ -1,0 +1,20 @@
+LIBRARY     UPL.DLL
+
+EXPORTS
+    GetFunctionTable               @1   ; GetFunctionTable
+    PolicyCloseHandle              @2   ; PolicyCloseHandle
+    PolicyEngineInit               @3   ; PolicyEngineInit
+    PolicyRuleAbortTransaction     @4   ; PolicyRuleAbortTransaction
+    PolicyRuleAddRawData           @5   ; PolicyRuleAddRawData
+    PolicyRuleBeginTransaction     @6   ; PolicyRuleBeginTransaction
+    PolicyRuleBuildRawData         @7   ; PolicyRuleBuildRawData
+    PolicyRuleCommit               @8   ; PolicyRuleCommit
+    PolicyRuleCommitTransaction    @9   ; PolicyRuleCommitTransaction
+    PolicyRuleCreate               @10  ; PolicyRuleCreate
+    PolicyRuleDelete               @11  ; PolicyRuleDelete
+    PolicyRuleFindFirst            @12  ; PolicyRuleFindFirst
+    PolicyRuleFindNext             @13  ; PolicyRuleFindNext
+    PolicyRuleGetInfo              @14  ; PolicyRuleGetInfo
+    PolicyRuleOpen                 @15  ; PolicyRuleOpen
+    PolicyRuleParseRawData         @16  ; PolicyRuleParseRawData
+    PolicyRuleReadRawData          @17  ; PolicyRuleReadRawData
